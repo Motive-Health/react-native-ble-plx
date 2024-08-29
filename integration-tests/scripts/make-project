@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -eo pipefail
-
 RN_VERSION=$1
 DESTINATION=$(dirname $2)
 PROJECT_NAME=$(basename $2)
