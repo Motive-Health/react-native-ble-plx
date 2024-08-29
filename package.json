@@ -47,7 +47,7 @@
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build plugin/build lib",
     "build:plugin": "tsc --build plugin",
     "test:plugin": "jest --config plugin/jest.config.js",
-    "prepare": "npm run clean:plugin && npm run build:plugin",
+    "prepare": "",
     "lint:plugin": "eslint plugin/src/*"
   },
   "keywords": [
